@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Retron';
+    src : url('Retron2000.ttf') format('truetype');
+}
+
+body {
+    background-color: #031b28;
+    color: white;
+    font-family: Retron, monospace, sans-serif;
+    text-align: center;
+}
+
+.status-message {
+    display: flex;
+    margin: 0 auto;
+    justify-content:center;
+    align-items: center;
+    height: 50vh;
+    width: 90vw;
+    font-size: 12vw;
+}
+
+.initial {
+    box-shadow: inset 0px 0px 150px #a86d00;
+}
+
+.online {
+    box-shadow: inset 0px 0px 150px #0B844A;
+}
+
+.error {
+    box-shadow: inset 0px 0px 150px #840B41;
+}
+
+.server-info {
+    font-size: 5vw;
+}

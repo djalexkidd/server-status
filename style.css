@@ -26,10 +26,12 @@ body {
 
 .online {
     box-shadow: inset 0px 0px 150px #0B844A;
+    transition: box-shadow 1s ease-in-out;
 }
 
 .error {
     box-shadow: inset 0px 0px 150px #840B41;
+    transition: box-shadow 1s ease-in-out;
 }
 
 .server-info {
